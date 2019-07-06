@@ -17,6 +17,8 @@ def follow_followers(api):
             logger.info(f"Following {follower.name}")
             follower.follow()
 
+            api.update_status(f"Siguiendo a {follower.name}")
+
 
 def main():
     api = create_api()

@@ -1,0 +1,484 @@
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+root - ERROR - Error on fav and retweet
+Traceback (most recent call last):
+  File "fav_new.py", line 41, in favorite
+    tweet.favorite()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/models.py", line 117, in favorite
+    return self._api.create_favorite(self.id)
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/home/yintao/.local/share/virtualenvs/twitterbot-pOKxm13u/lib/python3.7/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
