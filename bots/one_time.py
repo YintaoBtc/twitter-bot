@@ -30,7 +30,7 @@ def bender_talk(api):
         if i == number:
             try:
                 print(line)
-                #api.update_status(line)
+                api.update_status(line)
             except tweepy.TweepError as e:
                 print(e.reason)
 
@@ -51,46 +51,11 @@ def price_crw(api):
     format_eur = format(eur, ".2f")
     message =  f"Moneda: {name}\nPrecio: {format_eur} €\n24h: {percent_change_24h}%" 
     print(message)
-    #api.update_status(message)
-
-def search(api):
-    # For loop to iterate over tweets with #CrownPlatform, limit to 10
-    for tweet in tweepy.Cursor(api.search,
-                            q='#CrownPlatform',                           
-                            since='2019-06-25',
-                            ).items(10):
-
-         # Print out usernames of the last 10 people to use #CrownPlatform
-        try:
-            print('Tweet by: @' + tweet.user.screen_name)
-            #tweet.retweet()
-            print('Retweeted the tweet')
-
-            # Favorite the tweet
-            #tweet.favorite()
-            print('Favorited the tweet')
-
-            # Follow the user who tweeted
-            if not tweet.user.following:
-                #tweet.user.follow()
-                print('Followed the user')
-
-        except tweepy.TweepError as e:
-            print(e.reason)
-
-        except StopIteration:
-            break
+    api.update_status(message)
 
 
 
 
 
-
-api = create_api()
-search(api)
-bender_talk(api)
-price_crw(api)
-        
-        
 
     

@@ -5,13 +5,11 @@ load_dotenv()
 import logging
 from config import create_api
 import time, random
+from one_time import *
 
 #logging.basicConfig(level=logging.INFO)
 logging.basicConfig(filename='app.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
-
-
-
 
 def follow_followers(api):
     logger.info("Retrieving and following followers")
@@ -20,7 +18,8 @@ def follow_followers(api):
             logger.info(f"Following {follower.name}")
             follower.follow()
 
-            api.update_status(f"Following @{follower.name}")
+            api.update_status(f"Following {follower.name}")
+
 
 
 def favorite(api):
@@ -44,30 +43,42 @@ def favorite(api):
             logger.error("Error on fav and retweet", exc_info=True)
 
 
-def bender_talk(api):
-    # Open text file verne.txt (or your chosen file) for reading
-    my_file = open('bender_phrases.txt', 'r')
 
-    # Read lines one by one from my_file and assign to file_lines variable
-    file_lines = my_file.readlines()
+def search(api):
+    # For loop to iterate over tweets with #CrownPlatform, limit to 10
+    for tweet in tweepy.Cursor(api.search,
+                            q='#CrownPlatform',                           
+                            #since='2019-06-25',
+                            ).items(10):
 
-    # Close file
-    my_file.close()
+         # Print out usernames of the last 10 people to use #CrownPlatform
+        try:
 
-    total = len(file_lines)
+            # Follow the user who tweeted
+            if not tweet.user.following:
+                try: 
+                    tweet.user.follow()
+                    print('Followed the user')
+                except tweepy.TweepError as e:
+                    print(e.reason)
+                    
+            print('Tweet by: @' + tweet.user.screen_name)
+            tweet.retweet()
+            print('Retweeted the tweet')
 
-    number = random.randint(0,total)
-    print(number)
-    i = 0
+            # Favorite the tweet
+            tweet.favorite()
+            print('Favorited the tweet')
 
-    # Create a for loop to iterate over file_lines
-    for line in file_lines:
-        i += 1
-        print(i)
-        if i == number:
-            print (line)
 
-            api.update_status(line)
+
+
+
+        except tweepy.TweepError as e:
+            print(e.reason)
+
+        except StopIteration:
+            break
 
 
 
@@ -76,12 +87,16 @@ def bender_talk(api):
 def main():
     api = create_api()
     while True:
-        bender_talk(api)
         favorite(api)
         follow_followers(api)
+        search(api)
         logger.info("Waiting...")
         time.sleep(60)
 
 if __name__ == "__main__":
+    api = create_api()
+
+    bender_talk(api)
+    price_crw(api)
     main()
     
